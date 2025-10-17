@@ -4,7 +4,7 @@ export default function Card({image, title, price, rating}){
             <img src={image} alt={title} className="w-80 h-80"/>
             <h1 className="text-3xl text-black">{title}</h1>
             <div className="flex justify-center items-center text-yellow-400 gap-2 self-start">
-                <h2>{rating["rate"]}</h2>
+                <h2>⭐{rating["rate"]}</h2>
                 <h2>({rating["count"]})</h2>
             </div>
             <h3 className="text-gray-600 self-start">${price}</h3>

@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import Card from "../components/Card";
 import Section from "../components/Section"
+import Footer from "../components/Footer";
 
 export default function Home() {
   
@@ -69,6 +70,7 @@ export default function Home() {
             ))
           }
         </Section>
+        <Footer></Footer>
     </div>
   );
 }
